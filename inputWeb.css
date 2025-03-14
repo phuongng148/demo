@@ -1,0 +1,77 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Ảnh/banner3.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Khung chứa form */
+.inputW {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Tiêu đề form */
+h2 {
+    margin-bottom: 20px;
+    color: #26373C;
+}
+
+/* Định dạng label và input */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Nút đăng nhập và đăng ký */
+button {
+    background-color: #73CFE6
+    ;
+    color: #26373C;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7DAFBB;
+}
+
+/* Chuyển đổi giữa form đăng nhập và đăng ký */
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #526266;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;/*Gachj chan khi di chuyen chuot vao lien ket*/
+}

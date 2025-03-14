@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="inputWeb.css">
+    
+</head>
+<body>
+    <div class="inputW">
+        <div class="dn" id="dangnhap-f">
+            <h2>Đăng Nhập</h2>
+            <form action="#" method="post"><!--fỏm gửi dữ liệu qua phương thức post-->
+                <label for="dangnhap-e">Email:</label>
+                <input type="email" id="dangnhap-e" name="email" required>
+                <label for="dangnhap-p">Mật Khẩu:</label>
+                <input type="password" name="password" id="dangnhap-p" required>
+                <button type="submit">Đăng nhập</button>
+                <p>Chưa có tài khoản?<a href="#" onclick="dForms()"> Đăng ký</a></p>
+
+            </form>
+        </div>
+        <!--form đk ban đầu bị ẩn khi nhấn đăng kí form này sẽ hiển thị thay vì form đăng nhập-->
+        <div class="dk" id="dangki-f" style="display: none;">
+            <h2>Đăng Kí</h2>
+            <form action="#" method="post">
+                <label for="dangki-name">Họ và tên:</label>
+                <input type="text" id="dangki-name" name="name" required>
+                <label for="dangki-e">Email:</label>
+                <input type="email" id="dangki-e" name="email" required>
+                <label for="dangki-p">Mật khẩu:</label>
+                <input type="password" name="password" id="dangki-p" required>
+                <button type="submit">Đăng kí</button>
+                <p>Chưa có tài khoản?<a href="#" onclick="dForms()"> Đăng nhập</a></p>
+
+            </form>
+        </div>
+    </div>
+    <script src="inputWeb.js"></script>
+</body>
+</html>
