@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="chitietsp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="Ảnh/logo.jpeg" alt="Logo">
+        
+    </div>
+    <h5>Nơi cung cấp thức ăn - Kiến thức chăm sóc chó mèo</h5>
+    <!--Menu điều hường-->
+    <header class="header">
+        <nav class="menu">
+            <a href="shopWeb.html">TRANG CHỦ</a>
+            <a href="cuahang.html">CỬA HÀNG</a>
+            <a href="#">LIÊN HỆ</a>
+        </nav>
+        <!--icon người và giỏ hàng-->
+        <div class="icons">
+            <a href="inputWeb.html"><i class="fas fa-user"></i></a>
+            <div class="cart-icon">   
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span><!--Đây là 1 phần tử span với nội dung ban đàu là 0-->
+            </div>
+        </div>
+    </header>
+    <br>
+    <main class="chitietsanpham">
+        <div class="hinhanh">
+            <img src="Ảnh/Thức ăn chó/ROYAL CANIN Mini_225.jpg" alt="Ảnh thức ăn cho chó con">
+        </div>
+        <div class="thongtinsp">
+            <h2>Hạt Royal Canin Mini cho chó nhỏ (túi 1 kg)</h2>
+            <p class="gia">Giá: 250.000đ</p>
+            <p class="mota">
+                Chi tiết sản phẩm: Dành cho chó kích cỡ Medium (cân nặng tối đa từ 11 - 25 kg) và 
+                đang trong lứa tuổi từ 2 đến 10 tháng tuổi
+                <br>Thành phần: Protein gia cầm khử nước, mỡ động vật, ngô, gluten lúa mì*, bột củ cải đường, bột mì, 
+                gluten ngô, protein động vật thủy phân, bột ngô, gạo, lúa mì, khoáng chất, dầu đậu nành, các sản phẩm men,
+                dầu cá, fructo-oligosaccharides, men thủy phân (nguồn manno-oligosaccharides và betaglucans) (0,29%), 
+                dầu tảo Schizochytrium sp. (nguồn DHA), chiết xuất Yucca Schidigera, bột cúc vạn thọ.
+                <br>Những lợi ích: Tăng cường hệ miến dịch, hỗ trợ lợi khuẩn và phát triển trí não.
+            </p>
+
+            <form class="bangthongtin">
+                <label for="soluong">Số lượng:</label>
+                <input type="soluong" id="soluong" name="soluong" min="1" value="1">
+                <button type="chon" onclick="addToCart()">Thêm vào giỏ hàng</button>
+            </form>
+        </div>
+    </main>
+    <script src="thaotac.js"></script>
+    <footer class="footer">
+        <div>
+            <h3>Liên hệ</h3>
+                <p>Địa chỉ: 123 Đường ABC, Thành phố XYZ</p>
+                <p>Điện thoại: 0123 456 789</p>
+                <p>Email: ntphuong1482003@gmail.com</p>
+        </div>
+        <p>&copy; 2024 Cửa hàng thú cưng. Thiết kế bởi Nguyễn Thị Phượng</p>
+    </footer>
+   
+</body>
+</html>

@@ -1,0 +1,54 @@
+.chitietsanpham{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.hinhanh img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .thongtinsp {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .gia {
+    font-size: 20px;
+    color: #093073;
+    margin-bottom: 15px;
+  }
+  
+  .mota {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .bangthongtin label {
+    margin-right: 10px;
+  }
+  
+  .bangthongtin input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .bangthongtin button {
+    background-color: #097474;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .bangthongtin button:hover {
+    background-color: #093073;
+  }
+  
+  
